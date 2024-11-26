@@ -12,7 +12,8 @@ body{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #F0F8FF	;
+    background-color: #F0F8FF;
+    overflow: hidden;
 }
 
 .cabecalho {
@@ -61,6 +62,50 @@ body{
 
 }
 
+.principal_conteudo_descricao_strong{
+    color: #493657;
+}
+
+.principal_escolha {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.principal_escolha_mousse_maracuja {
+    flex: 1;                     
+    display: flex;              
+    align-items: center;         
+    justify-content: center;     
+    font-size: 24px;             
+    color: white;                
+    text-decoration: none;       
+    background-size: cover;
+    background-position: center; 
+    transition: 0.3s;    
+    background-image: url('/templates/assets/mousse-maracuja.jpg');
+}
+
+.principal_escolha_mousse_limao {
+    flex: 1;                     
+    display: flex;              
+    align-items: center;         
+    justify-content: center;     
+    font-size: 24px;             
+    color: white;                
+    text-decoration: none;       
+    background-size: cover; 
+    background-position: center; 
+    transition: 0.3s;
+    background-image: url('/templates/assets/mousse-limao.jpg');
+
+}
+
+.principal_escolha_mousse_limao:hover, .principal_escolha_mousse_maracuja:hover {
+    opacity: 70%;
+
+}
 
 .imagens {
     padding-top: 50px;
